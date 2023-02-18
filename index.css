@@ -1,0 +1,187 @@
+#fullContainer {
+    width: 550px;
+    height: 550px;
+    left: 72px;
+    top: 80px;
+    background-color: green;
+    box-sizing: border-box;
+    white-space: nowrap;
+   
+}
+
+#headbar{
+    position:relative;
+    height:90px;
+    display: flex;
+    flex-direction: row;
+    background: #1F2937;
+
+}
+
+#colorPicker{
+    position: absolute;
+    width: 61px;
+    height: 42px;
+    left: 24px;
+    top: 23px;
+    background-color:white;
+}
+
+#dropdownMenu {
+    position: absolute;
+    width: 282px;
+    height: 42px;
+    left: 107px;
+    top: 23px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+#dropdownMenu option {
+    background-color: #fff;
+    color: #333;
+}
+
+#getScheme{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100px;
+    height: 42px;
+    left: 420px;
+    top: 23px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #374151;
+}
+
+#fiveColumns{
+    height: 370px;
+    width: 100%;
+    background-color: pink;
+    display : flex;
+    flex-direction : row;
+}
+
+#first {
+    width: 110px;
+    height: 370px;
+    background: #FF0000;
+}
+
+#second {
+    width: 110px;
+    height: 370px;
+    background: #D1D5DB;
+}
+
+#third {
+    width: 110px;
+    height: 370px;
+    background: #008000
+}
+
+#fourth {
+    width: 110px;
+    height: 370px;
+    background: #800080
+}
+
+#fifth {
+    width: 110px;
+    height: 370px;
+    background: #FFA500;
+}
+
+
+#hexes {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    background: #1F2937;
+;
+    display : flex;
+    flex-direction : row;
+    font-size: 10px;
+    
+}
+#one {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 28px;
+    top: 33px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#two {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 138px;
+    top: 33px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#three {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 248px;
+    top: 33px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#four {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 358px;
+    top: 33px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#five {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 467px;
+    top: 33px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
